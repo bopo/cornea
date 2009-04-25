@@ -1,0 +1,3 @@
+== Cornea
+
+Cornea is a layer on the front of Sphinx. It allows you to query your Sphinx indexes and receive the results as JSON data.
