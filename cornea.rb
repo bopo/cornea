@@ -2,5 +2,8 @@ require 'sinatra'
 require 'riddle'
 
 get '/' do
-  'Hello world!'
+  client = Riddle::Client.new
+  @results = client.query "Drive"
+  
+  erb :query
 end
